@@ -1,4 +1,89 @@
--dscho and I will be in the day and women who have been working with a big deal if I can do that and t and women and children day day and I will be in the day day and I will be in the day of work to get to see the day of school the Morningside Dr suite in day the Morningside heights mi is intended solely the day and women who have been working with a question regarding and drive to the Morningside the:fix-fscache_lstat-bug Hi, I’m @prXML
+Android 13-dscho and I will be in the day and women who have been working with a big deal if I can do that and t and women and children day day and I will be in the day day and I will be in the day of work to get to see the day of school the Morningside Dr suite in day the Morningside heights mi is intended solely the day and women who have been working with a question regarding and drive to the Morningside the:fix-fscache_lstat-bug Hi, I’m @prXML
 prindawigidgindawong/prindawigidgindawong is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
 --->prindaaek@gmail.comi
+> docker build -t node-test ./
+[+] Building 10.4s (7/8)                                                                                                                
+ => [internal] load build definition from Dockerfile                                                                               0.0s
+ => => transferring dockerfile: 37B                                                                                                0.0s
+ => [internal] load .dockerignore                                                                                                  0.0s
+ => => transferring context: 2B                                                                                                    0.0s
+ => [internal] load metadata for docker.io/amd64/ubuntu:18.04                                                                      1.0s
+ => [auth] amd64/ubuntu:pull token for registry-1.docker.io                                                                        0.0s
+ => [1/4] FROM docker.io/amd64/ubuntu:18.04@sha256:81d5a9161533bba27b2fcc6475228ff2348c82f7bb610bcd97880a100f8e4d5c                0.0s
+ => CACHED [2/4] RUN apt-get update -q && apt-get install -qy       build-essential       curl       git       make       man      0.0s
+ => ERROR [3/4] RUN curl -fsSL https://deb.nodesource.com/setup_16.x | bash - &&     apt-get install -qy nodejs                    9.2s
+------                                                                                                                                  
+ > [3/4] RUN curl -fsSL https://deb.nodesource.com/setup_16.x | bash - &&     apt-get install -qy nodejs:                               
+#7 1.064                                                                                                                                
+#7 1.064 ## Installing the NodeSource Node.js 16.x repo...                                                                              
+#7 1.064                                                                                                                                
+#7 1.078                                                                                                                                
+#7 1.078 ## Populating apt-get cache...
+#7 1.078 
+#7 1.078 + apt-get update
+#7 1.351 Get:1 http://security.ubuntu.com/ubuntu bionic-security InRelease [88.7 kB]
+#7 1.555 Err:1 http://security.ubuntu.com/ubuntu bionic-security InRelease
+#7 1.555   At least one invalid signature was encountered.
+#7 1.579 Hit:2 http://archive.ubuntu.com/ubuntu bionic InRelease
+#7 1.658 Get:3 http://archive.ubuntu.com/ubuntu bionic-updates InRelease [88.7 kB]
+#7 1.736 Err:2 http://archive.ubuntu.com/ubuntu bionic InRelease
+#7 1.736   At least one invalid signature was encountered.
+#7 1.949 Get:4 http://archive.ubuntu.com/ubuntu bionic-backports InRelease [74.6 kB]
+#7 1.988 Err:3 http://archive.ubuntu.com/ubuntu bionic-updates InRelease
+#7 1.988   At least one invalid signature was encountered.
+#7 2.146 Err:4 http://archive.ubuntu.com/ubuntu bionic-backports InRelease
+#7 2.146   At least one invalid signature was encountered.
+#7 2.164 Fetched 252 kB in 1s (289 kB/s)
+#7 2.164 Reading package lists...
+#7 4.708 W: An error occurred during the signature verification. The repository is not updated and the previous index files will be used. GPG error: http://security.ubuntu.com/ubuntu bionic-security InRelease: At least one invalid signature was encountered.
+#7 4.708 W: An error occurred during the signature verification. The repository is not updated and the previous index files will be used. GPG error: http://archive.ubuntu.com/ubuntu bionic InRelease: At least one invalid signature was encountered.
+#7 4.709 W: An error occurred during the signature verification. The repository is not updated and the previous index files will be used. GPG error: http://archive.ubuntu.com/ubuntu bionic-updates InRelease: At least one invalid signature was encountered.
+#7 4.709 W: An error occurred during the signature verification. The repository is not updated and the previous index files will be used. GPG error: http://archive.ubuntu.com/ubuntu bionic-backports InRelease: At least one invalid signature was encountered.
+#7 4.710 W: Failed to fetch http://archive.ubuntu.com/ubuntu/dists/bionic/InRelease  At least one invalid signature was encountered.
+#7 4.710 W: Failed to fetch http://archive.ubuntu.com/ubuntu/dists/bionic-updates/InRelease  At least one invalid signature was encountered.
+#7 4.710 W: Failed to fetch http://archive.ubuntu.com/ubuntu/dists/bionic-backports/InRelease  At least one invalid signature was encountered.
+#7 4.710 W: Failed to fetch http://security.ubuntu.com/ubuntu/dists/bionic-security/InRelease  At least one invalid signature was encountered.
+#7 4.710 W: Some index files failed to download. They have been ignored, or old ones used instead.
+#7 4.950 
+#7 4.950 ## Confirming "bionic" is supported...
+#7 4.950 
+#7 4.950 + curl -sLf -o /dev/null 'https://deb.nodesource.com/node_16.x/dists/bionic/Release'
+#7 5.560 
+#7 5.560 ## Adding the NodeSource signing key to your keyring...
+#7 5.560 
+#7 5.560 + curl -s https://deb.nodesource.com/gpgkey/nodesource.gpg.key | gpg --dearmor | tee /usr/share/keyrings/nodesource.gpg >/dev/null
+#7 5.694 
+#7 5.694 ## Creating apt sources list file for the NodeSource Node.js 16.x repo...
+#7 5.694 
+#7 5.694 + echo 'deb [signed-by=/usr/share/keyrings/nodesource.gpg] https://deb.nodesource.com/node_16.x bionic main' > /etc/apt/sources.list.d/nodesource.list
+#7 5.698 + echo 'deb-src [signed-by=/usr/share/keyrings/nodesource.gpg] https://deb.nodesource.com/node_16.x bionic main' >> /etc/apt/sources.list.d/nodesource.list
+#7 5.701 
+#7 5.701 ## Running `apt-get update` for you...
+#7 5.701 
+#7 5.701 + apt-get update
+#7 5.924 Get:1 http://security.ubuntu.com/ubuntu bionic-security InRelease [88.7 kB]
+#7 5.982 Get:2 https://deb.nodesource.com/node_16.x bionic InRelease [4584 B]
+#7 6.031 Hit:3 http://archive.ubuntu.com/ubuntu bionic InRelease
+#7 6.217 Err:2 https://deb.nodesource.com/node_16.x bionic InRelease
+#7 6.217   At least one invalid signature was encountered.
+#7 6.284 Get:4 http://archive.ubuntu.com/ubuntu bionic-updates InRelease [88.7 kB]
+#7 6.319 Err:1 http://security.ubuntu.com/ubuntu bionic-security InRelease
+#7 6.319   At least one invalid signature was encountered.
+#7 6.462 Err:3 http://archive.ubuntu.com/ubuntu bionic InRelease
+#7 6.462   At least one invalid signature was encountered.
+#7 6.563 Get:5 http://archive.ubuntu.com/ubuntu bionic-backports InRelease [74.6 kB]
+#7 6.613 Err:4 http://archive.ubuntu.com/ubuntu bionic-updates InRelease
+#7 6.613   At least one invalid signature was encountered.
+#7 6.739 Err:5 http://archive.ubuntu.com/ubuntu bionic-backports InRelease
+#7 6.739   At least one invalid signature was encountered.
+#7 6.751 Reading package lists...
+#7 9.071 W: GPG error: https://deb.nodesource.com/node_16.x bionic InRelease: At least one invalid signature was encountered.
+#7 9.071 E: The repository 'https://deb.nodesource.com/node_16.x bionic InRelease' is not signed.
+#7 9.071 W: An error occurred during the signature verification. The repository is not updated and the previous index files will be used. GPG error: http://security.ubuntu.com/ubuntu bionic-security InRelease: At least one invalid signature was encountered.
+#7 9.071 W: An error occurred during the signature verification. The repository is not updated and the previous index files will be used. GPG error: http://archive.ubuntu.com/ubuntu bionic InRelease: At least one invalid signature was encountered.
+#7 9.071 W: An error occurred during the signature verification. The repository is not updated and the previous index files will be used. GPG error: http://archive.ubuntu.com/ubuntu bionic-updates InRelease: At least one invalid signature was encountered.
+#7 9.072 W: An error occurred during the signature verification. The repository is not updated and the previous index files will be used. GPG error: http://archive.ubuntu.com/ubuntu bionic-backports InRelease: At least one invalid signature was encountered.
+#7 9.077 Error executing command, exiting
+------
+executor failed running [/bin/sh -c curl -fsSL https://deb.nodesource.com/setup_16.x | bash - &&     apt-get install -qy nodejs]: exit code: 1.DS_Store
